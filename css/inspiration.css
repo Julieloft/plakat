@@ -1,5 +1,3 @@
-
-
 :root {
     --Baggrundsfarve: #f0ebdf;
     --Mørkeblå: #0d3680;
@@ -73,6 +71,7 @@ body{
     color: var(--sort);
     cursor: pointer;
     display: none;
+ 
 }
 
 .navbar img:hover {
@@ -190,11 +189,16 @@ article{
         right: 0;
         background-color: var(--lyserød);
         padding: 1rem;
-        align-items: center;
+      
+        
     }
-
+  .navbar img {
+    margin-left:1.1rem}
+    
+  }
     #menu-bar:checked ~ ul {
         display: flex;
+     
     }
 
     .burger-label {
@@ -202,12 +206,14 @@ article{
         width: 10rem;
         height: 13rem;
         font-size: 7rem;
+     
     }
 
     .navbar {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+       gap:2rem;
     }
 
     .udvid img{
@@ -244,7 +250,7 @@ article{
     }
 
     .navbar ul {
-        gap: 1%;
+        gap: 1;
     }
 
 

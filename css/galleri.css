@@ -1,4 +1,3 @@
-
 :root {
     --Baggrundsfarve: #f0ebdf;
     --Mørkeblå: #0d3680;
@@ -163,8 +162,8 @@ h1 {
 }
 
 .plakat img {
-    width: fit-content;
-    height: 20rem;
+    width: auto;
+    height: auto;
     object-fit: cover;
     border: 0.1rem solid #0d3680;
     padding: 0.5rem;
@@ -377,7 +376,7 @@ h6 {
 
     .plakat img {
         width: 15rem;
-        height: fit-content;
+        height: auto;
     }
 }
 
@@ -417,7 +416,7 @@ h6 {
 
     .plakat img {
         width: auto;
-        height: 15rem;
+        height: auto;
     }
 
     .plakattekst {

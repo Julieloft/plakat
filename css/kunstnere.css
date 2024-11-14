@@ -126,6 +126,7 @@ body{
    font-weight: 700;
    font-size: 1.3rem;
    padding: 1rem;
+   margin: 0;
 }
 
 
@@ -175,7 +176,7 @@ body{
 
 .AnneRisum img{
    height: 18em;
-   width: fit-content;
+   width: auto;
    margin-top: 4rem;
    justify-content: space-between; 
 }
@@ -302,7 +303,7 @@ transition: .5s ease;
 
 .FinnNygaard img{
     height: 18rem;
-    width: fit-content;
+    width: auto;
     margin-top: 4rem;
     justify-content: space-between; 
 }
@@ -337,7 +338,7 @@ transition: .5s ease;
 
 .AsgerJorn img{
     height: 18rem;
-   width: fit-content;
+   width: auto;
    margin-top: 4rem;
    justify-content: space-between; 
 }
@@ -502,16 +503,18 @@ transition: .5s ease;
         right: 0;
         background-color:#ff8a8c;
         padding: 1rem;
+      
     }
     #menu-bar:checked ~ ul {
         display: flex; /* Vis menuen, når checkboxen er markeret */
-        text-align: center;
+        
     }
     .burger-label {
         display: block; /* Vis burger-menu på mobil */
         width: 10rem;
         height: 13rem;
         font-size: 7rem;
+      padding-left:1.899rem;
     }
 
     .navbar {
@@ -654,9 +657,8 @@ transition: .5s ease;
   }
   .AnneRisum, .FinnNygaard, .AsgerJorn {
     height: 18rem; /* Juster højden lidt for at se bedre ud på tablets */
-    gap: 2rem;
+    gap: 1.5rem;
   
- 
   }
   .broedtekst1,.broedtekst2,.broedtekst3{
     margin-top: 0;
@@ -664,7 +666,7 @@ transition: .5s ease;
 
 .AnneRisum img, .FinnNygaard img, .AsgerJorn img {
     height: 10rem; 
-    
+
 }
 h3,h4{
   font-size: 0.8rem;
