@@ -14,7 +14,8 @@ body{
     font-family: "Poppins", sans-serif;
     
   }
-  header {
+/* Header-stil */
+header {
     position: relative;
     top: 0;
     left: 0;
@@ -71,7 +72,6 @@ body{
     color: var(--sort);
     cursor: pointer;
     display: none;
- 
 }
 
 .navbar img:hover {
@@ -103,7 +103,6 @@ article{
     justify-content: center;
     margin-bottom: 2rem;
     padding: 2rem;
-    width: 100%;
 }
 
 #Inspo{
@@ -150,7 +149,7 @@ article{
     align-items: start; /* Justerer elementerne til venstre */
     margin-left: 1rem;
     margin-right: 5rem;
-    padding: 2rem;c
+    padding: 2rem;
     margin-top: 2rem;
 }
 
@@ -172,7 +171,7 @@ article{
 /* Media for mobiltelefoner */
 @media (max-width: 767px) {
 
-    .navbar ul a {
+  .navbar ul a {
         color: var(--hvid);
         font-size: 1.5rem;
     }
@@ -190,16 +189,11 @@ article{
         right: 0;
         background-color: var(--lyserød);
         padding: 1rem;
-      
-        
+        align-items: center;
     }
-  .navbar img {
-    margin-left:1.1rem}
-    
-  }
+
     #menu-bar:checked ~ ul {
         display: flex;
-     
     }
 
     .burger-label {
@@ -207,15 +201,14 @@ article{
         width: 10rem;
         height: 13rem;
         font-size: 7rem;
-     
     }
 
     .navbar {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-       gap:2rem;
     }
+
 
     .udvid img{
         height: 6rem;
@@ -226,7 +219,6 @@ article{
     }
 
     article{
-        float: left;
         font-weight: 300;
         font-size: 1.25rem;
         display: flex;
@@ -253,7 +245,6 @@ article{
     .navbar ul {
         gap: 1;
     }
-
 
     article{
         font-weight: 300;
